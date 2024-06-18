@@ -1,0 +1,42 @@
+import p35_img from '../Assets/p35_img.jpeg';
+
+const all_product = [
+  { id: 1, name: "Boys Orange Colourblocked Hooded Sweatshirt", category: "kid", image: p35_img, new_price: 50.0, old_price: 80.5 },
+  { id: 2, name: "Girls Pink Floral Dress", category: "kid", image: p35_img, new_price: 45.0, old_price: 70.0 },
+  { id: 3, name: "Boys Navy Blue Jeans", category: "kid", image: p35_img, new_price: 40.0, old_price: 60.0 },
+  { id: 4, name: "Girls Red Polka Dot Skirt", category: "kid", image: p35_img, new_price: 30.0, old_price: 50.0 },
+  { id: 5, name: "Boys Green Cargo Pants", category: "kid", image: p35_img, new_price: 35.0, old_price: 55.0 },
+  { id: 6, name: "Girls Yellow Sundress", category: "kid", image: p35_img, new_price: 42.0, old_price: 65.0 },
+  { id: 7, name: "Boys Black Graphic T-Shirt", category: "kid", image: p35_img, new_price: 25.0, old_price: 40.0 },
+  { id: 8, name: "Girls Purple Unicorn Hoodie", category: "kid", image: p35_img, new_price: 50.0, old_price: 80.5 },
+  { id: 9, name: "Boys Red Checkered Shirt", category: "kid", image: p35_img, new_price: 37.0, old_price: 60.0 },
+  { id: 10, name: "Girls Blue Denim Jacket", category: "kid", image: p35_img, new_price: 60.0, old_price: 90.0 },
+  { id: 11, name: "Women's Black Leather Jacket", category: "woman", image: p35_img, new_price: 120.0, old_price: 200.0 },
+  { id: 12, name: "Women's Red Evening Gown", category: "woman", image: p35_img, new_price: 150.0, old_price: 250.0 },
+  { id: 13, name: "Women's Blue Skinny Jeans", category: "woman", image: p35_img, new_price: 80.0, old_price: 120.0 },
+  { id: 14, name: "Women's Green Summer Dress", category: "woman", image: p35_img, new_price: 70.0, old_price: 110.0 },
+  { id: 15, name: "Women's White Blouse", category: "woman", image: p35_img, new_price: 60.0, old_price: 100.0 },
+  { id: 16, name: "Women's Pink Cardigan", category: "woman", image: p35_img, new_price: 90.0, old_price: 130.0 },
+  { id: 17, name: "Women's Yellow Maxi Dress", category: "woman", image: p35_img, new_price: 110.0, old_price: 160.0 },
+  { id: 18, name: "Women's Grey Sweater", category: "woman", image: p35_img, new_price: 85.0, old_price: 140.0 },
+  { id: 19, name: "Women's Black Pencil Skirt", category: "woman", image: p35_img, new_price: 75.0, old_price: 120.0 },
+  { id: 20, name: "Women's Purple Tunic", category: "woman", image: p35_img, new_price: 65.0, old_price: 110.0 },
+  { id: 21, name: "Men's Blue Denim Jacket", category: "man", image: p35_img, new_price: 100.0, old_price: 150.0 },
+  { id: 22, name: "Men's Black Leather Boots", category: "man", image: p35_img, new_price: 120.0, old_price: 200.0 },
+  { id: 23, name: "Men's White T-Shirt", category: "man", image: p35_img, new_price: 30.0, old_price: 50.0 },
+  { id: 24, name: "Men's Green Cargo Shorts", category: "man", image: p35_img, new_price: 45.0, old_price: 70.0 },
+  { id: 25, name: "Men's Grey Hoodie", category: "man", image: p35_img, new_price: 60.0, old_price: 100.0 },
+  { id: 26, name: "Men's Brown Leather Belt", category: "man", image: p35_img, new_price: 25.0, old_price: 40.0 },
+  { id: 27, name: "Men's Navy Blue Blazer", category: "man", image: p35_img, new_price: 130.0, old_price: 210.0 },
+  { id: 28, name: "Men's Red Plaid Shirt", category: "man", image: p35_img, new_price: 50.0, old_price: 80.0 },
+  { id: 29, name: "Men's Black Jeans", category: "man", image: p35_img, new_price: 70.0, old_price: 110.0 },
+  { id: 30, name: "Men's White Sneakers", category: "man", image: p35_img, new_price: 90.0, old_price: 140.0 },
+  { id: 31, name: "Men's Blue Track Jacket", category: "man", image: p35_img, new_price: 80.0, old_price: 130.0 },
+  { id: 32, name: "Men's Grey Sweatpants", category: "man", image: p35_img, new_price: 50.0, old_price: 90.0 },
+  { id: 33, name: "Men's Black Beanie", category: "man", image: p35_img, new_price: 20.0, old_price: 35.0 },
+  { id: 34, name: "Men's Yellow T-Shirt", category: "man", image: p35_img, new_price: 25.0, old_price: 40.0 },
+  { id: 35, name: "Men's White Dress Shirt", category: "man", image: p35_img, new_price: 60.0, old_price: 100.0 },
+  { id: 36, name: "Men's Brown Loafers", category: "man", image: p35_img, new_price: 70.0, old_price: 110.0 }
+];
+
+export default all_product;

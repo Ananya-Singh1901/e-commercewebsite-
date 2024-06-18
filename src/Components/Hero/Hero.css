@@ -1,0 +1,49 @@
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../Assets/Banner-background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.banner-content {
+    flex: 1;
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.banner-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner-content button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.banner-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+.banner-image img {
+    width: 80%;
+    height: 10cm;
+    border-radius: 10px;
+    margin-bottom:30px;
+}
